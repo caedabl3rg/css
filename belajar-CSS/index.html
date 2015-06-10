@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar Css </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/animate.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="assets/css/owl.theme.css"/>
+    <link rel="stylesheet" href="assets/css/banner.css"/>
+
+</head>
+<body>
+
+<div class="grass"></div>
+<div class="circle">
+    <div class="crater"></div>
+    <div class="crater"></div>
+    <div class="crater"></div>
+    <div class="crater"></div>
+    <div class="crater"></div>
+</div>
+<div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+</div>
+
+<nav class="navbar navbar-inverse navbar-fixed-top nav-color ">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#profil" class=" nav-color-home animate-profil">Profil</a></li>
+                <li><a href="#team" class="nav-color-home ">Team</a></li>
+                <li><a href="#login" class=" nav-color-home animate-login"> Login</a></li>
+                <li><a href="#signup" class="nav-color-home animate-signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div data-spy="scroll" data-target=".navbar" data-offset="12" class="test">
+
+<!-- PROFIL -->
+
+    <section id="profil" class="banner">
+    <div class="row">
+        <div class="col-md-6  container-fluid ">
+            <form class="form-group  demo-profil animated zoomIn ">
+            <img src="assets/image/background/205H.jpg" class="img-responsive  box" alt=""/>
+            </form>
+        </div>
+        <div class="col-md-6 text-center">
+            <form class="form-group  demo-profil animated bounce ">
+            <h1 style="color: whitesmoke">Hi , I'm Simone Philips</h1>
+            <p>i am a junior developer web of caedablerg company and
+            photographer</p>
+            </form>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="miniBox "><label for="" style="color: green">GREEN</label></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="miniBoxa "><label for="" style="color: yellow">YELLOW</label></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="miniBoxb"><label for="" style="color: red">RED</label></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+ <!--TEAM -->
+
+    <section id="team" class="team">
+        <div class="row">
+            <div class="col-md-4  card-container team">
+                    <div class="card">
+                        <div class="side"><img src="assets/image/profil/1.jpg" alt="Jimmy Eat World" style="padding: 45px;padding-right: 0px"></div>
+                        <div class="side back">Serly</div>
+                    </div>
+            </div>
+            <div class="col-md-4  card-container team">
+                <div class="card">
+                    <div class="side imgteam"><img src="assets/image/profil/2.jpg" alt="Jimmy Eat World" style="padding: 45px"></div>
+                    <div class="side back">Elizabeth</div>
+                </div>
+            </div>
+            <div class="col-md-4  card-container team">
+                <div class="card">
+                    <div class="side"><img src="assets/image/profil/4.jpg" alt="Jimmy Eat World"style="padding: 45px;padding-right: 0px"></div>
+                    <div class="side back">Angel
+                    <p>Hai, I am Angelina Jolie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- FORM LOGIN -->
+
+<section id="login">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 container-fluid ">
+            <form class="form-group  demo-login animated zoomIn ">
+                <div>
+                    <h2 class="text-content">Login</h2>
+                    <label class="text-content a">Email address</label>
+                    <input type="email" class="form-control " id="exampleInputEmail1" placeholder="Enter email">
+                </div>
+                <div>
+                    <br/>
+                    <label class="text-content a">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div>
+                    <br/>
+                    <label class="text-content a">File input</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class=" text-content b help-block ">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ><p class="text-content b"> Check me out</p>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success animate-login">Submit</button>
+                <a href="#signup" style="color:yellow" class="animate-signup">Register</a>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- SIGN UP FORM START -->
+
+<section id="signup">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 container-fluid">
+            <form class="form-group  demo-signup animated">
+
+                <div>
+                    <h2 class="text-content">Sign up</h2>
+                    <label class="text-content a" >User Name</label>
+                    <input type="text" class="form-control" placeholder="User Name">
+                </div>
+                <div>
+                    <label class="text-content a">Password</label>
+                    <input type="text" class="form-control"  placeholder="First Name">
+                </div>
+                <div>
+                    <label class="text-content a">Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+                <div>
+                    <label class="text-content a">Address</label>
+                </div>
+                <div>
+                    <textarea placeholder="Your address"> </textarea>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ><p class="text-content b">I agree to the
+                        <a href="javascript:void(0);">Terms of Service</a> and <a href="javascript:void(0);">Privacy Policy</a></p>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success animate-signup ">Create Account</button>
+            </form>
+        </div>
+    </div>
+</section>
+</div>
+
+<script src="assets/plugins/jquery.js"></script>
+<script src="assets/plugins/owl.carousel.min.js"></script>
+<script src="assets/plugins/less.js"></script>
+<script src="assets/js/form.js"></script>
+</body>
+</html>
+
+
+

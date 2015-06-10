@@ -1,0 +1,169 @@
+
+body {
+  background: darkslateblue no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -moz-animation: 18s sky-change infinite linear;
+  -webkit-animation: 18s sky-change infinite linear;
+  animation: 18s sky-change infinite linear;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.banner{
+  margin-top: 100px;
+  //background: rgba(255,250,122,0.5);
+}
+.team{
+  margin-top: 50px;
+}
+.nav-color {
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+.nav-color-home {
+  background: rgba(255,255,255,0.5);
+  color: white  !important;
+  margin-left: 1px;
+}
+.form-group {
+  background-color: rgba(0,0,0,0.5);
+  width: 500px;
+  padding: 25px;
+  border: 2px solid lightyellow;
+  margin: 80px;
+}
+.text-content{
+  color: whitesmoke;
+  text-align:center;
+  &.a{
+    color: white;
+  }
+  &.b{
+    color: red;
+    text-align: left !important;
+  }
+}
+// CAROUSEL BOX
+
+#owl-demo .item img{
+  display: block;
+  width: 100% !important;
+  height: auto;
+}
+
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 450px;
+  line-height: 450px;
+  text-align: center;
+  -webkit-transition-property: background, border-radius;
+  transition-property: background, border-radius;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  width: 450px;
+  display: auto;
+}
+.box:hover {
+  background: #ff7b29;
+  border-radius: 100%;
+}
+
+.miniBox {
+  background: red;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  -webkit-transition-property: background, border-radius;
+  transition-property: background, border-radius;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  width: 150px;
+  display: auto;
+}
+.miniBox:hover {
+  background: green;
+  border-radius: 50%;
+}
+.miniBoxa {
+  background: green;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  -webkit-transition-property: background, border-radius;
+  transition-property: background, border-radius;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  width: 150px;
+  display: auto;
+}
+.miniBoxa:hover {
+  background: yellow;
+  border-radius: 50%;
+}
+.miniBoxb {
+  background: yellow;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  -webkit-transition-property: background, border-radius;
+  transition-property: background, border-radius;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  width: 150px;
+  display: auto;
+}
+.miniBoxb:hover {
+  background: red;
+  border-radius: 50%;
+}
+
+.card-container {
+  cursor: pointer;
+  height: 600px;
+  perspective: 400;
+  position: relative;
+  width: 400px;
+
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: rgba(255,255,255,0.5);
+  color: black;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
